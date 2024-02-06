@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketch Pad</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <section class="Main-Section">
+        <div class="Sketch-Pad">
+            <div class="Logos">
+                <h4>Magic Screen</h4>
+                <h1>Etch A Sketch</h1>
+                <h4>Screen</h4>
+            </div>
+            <div class="screen" id="screen">
+
+            </div>
+            <div class="Actions">
+                <button onclick="Drawing_Color='black';RainBow=false;">Black</button>
+                <button onclick="Drawing_Color='gray';RainBow=false;" >Gray</button>
+                <button onclick="RainBow=true;">Rainbow</button>
+                <button onclick="Drawing_Color='#fff';RainBow=false;" >Erase</button>
+                <button onclick="Reset()">Reset</button>
+            </div>
+            <div class="Screen-Size-Setter">
+                <input type="text" name="size" id="size" placeholder="Set Size 2-100">
+                <button onclick="Pixel_User_Select()">Resize</button>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js">
+    </script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lobster', sans-serif;
+    --Sketch-Color:black;
+    --Span-Height:1px;
+    --Span-Width:1px;
+}
+section.Main-Section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(90deg,#0eb1b4,#6ceef0);
+}
+.Main-Section .Sketch-Pad{
+    height:90vh;
+    min-width: 50%;
+    border-radius: 20px;
+    background-color: #cc0000;
+    box-shadow: inset 4px 10px 10px 4px #7e3030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.Main-Section .Sketch-Pad .Logos{
+    width: 100%;
+    padding: 20px 0;
+    color:#ffe600;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.Main-Section .Sketch-Pad .Logos h1{ 
+    font-size: 3rem;
+}
+.Main-Section .Sketch-Pad .Actions{
+    width: 600px;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Main-Section .Sketch-Pad .Actions button{
+    height: 70px;
+    width: 70px;
+    font-size: 1rem;
+    background-color: #ffe600;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.Main-Section .Sketch-Pad .Screen-Size-Setter{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.Main-Section .Sketch-Pad .Screen-Size-Setter input{
+    margin-bottom: 10px;
+    padding: 5px;
+}
+.Main-Section .Sketch-Pad .Screen-Size-Setter button{
+    width: 50%;
+    padding: 10px 5px;
+    cursor: pointer;
+    background-image: linear-gradient(yellow,white);
+}
+.Main-Section .Sketch-Pad .screen{
+    height: 300px;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Main-Section .Sketch-Pad .screen span{
+    background-color: #fff;
+    width:var(--Span-Width);
+    height:var(--Span-Height);
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
