@@ -56,14 +56,13 @@ section.Main-Section{
 }
 .Main-Section .Sketch-Pad .Screen-Size-Setter{
     display: flex;
-    flex-direction: column;
     align-items: flex-end;
 }
 .Main-Section .Sketch-Pad .Screen-Size-Setter input{
-    margin-bottom: 10px;
-    padding: 5px;
+    padding: 10px 5px;
 }
 .Main-Section .Sketch-Pad .Screen-Size-Setter button{
+    margin-left: 10px;
     width: 50%;
     padding: 10px 5px;
     cursor: pointer;
